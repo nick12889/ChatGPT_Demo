@@ -1,0 +1,8 @@
+NC AI Live Demo source export — 6 October 2026
+
+Extract this ZIP and upload the contents of ChatGPT_Demo into the repository root.
+Includes current source, logo, media, database migrations, build scripts and blank .env.example. Dependencies and generated build output are excluded.
+
+Current limitations: chat, voice and callback are unresolved. This source still uses Vapi and Twilio. The Cloudflare AI replacement is not implemented. Hosting-specific authentication and database configuration need review before independent deployment. No paid tests were performed for this export.
+
+Keep private keys in hosting secrets, never in the public repository. Do not modify the separate production website or its Worker.
